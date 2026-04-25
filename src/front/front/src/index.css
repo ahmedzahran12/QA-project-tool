@@ -1672,9 +1672,6 @@ button {
 .admin-body {
   background-color: #f8fafc;
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -1751,7 +1748,8 @@ button {
 /* Admin Main Content */
 .admin-main {
   flex: 1;
-  display: block;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
   padding: 0 48px 48px;
   min-height: 100vh;

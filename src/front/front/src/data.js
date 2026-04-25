@@ -1,4 +1,5 @@
-export const destinations = [
+// Expose data globally for use without a server
+window.destinations = [
   // --- ITALY (6) ---
   { 
     id: 1,  name: 'Amalfi Coast', country: 'Italy', rating: 4.9, cost: 3400,
