@@ -1,4 +1,3 @@
-// Expose data globally for use without a server
 window.destinations = [
   // --- ITALY (6) ---
   { 
@@ -8,7 +7,7 @@ window.destinations = [
     description: 'A dramatic vertical landscape where pastel-colored villages cling to rugged cliffs above a shimmering sapphire sea.',
     highlights: ['Private boat charters', 'Michelin-starred dining', 'Lemon groves in Ravello'],
     vCards: [
-      { tag: 'HERITAGE', title: 'Ravello Villas', img: 'https://images.unsplash.com/photo-1549646849-fb93be1d4a04?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'HERITAGE', title: 'Ravello Villas', img: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Ravello_Villa_Rufolo.JPG' },
       { tag: 'SPIRIT', title: 'Lunch with a View', img: 'https://images.unsplash.com/photo-1515859005217-8a1f08870f59?q=80&w=800&auto=format&fit=crop' }
     ]
   },
@@ -20,7 +19,7 @@ window.destinations = [
     highlights: ['Vatican Museums', 'Pantheon Sunsets', 'Pasta making class'],
     vCards: [
       { tag: 'ANCIENT', title: 'Colosseum', img: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'VIBES', title: 'Trastevere', img: 'https://images.unsplash.com/photo-1515542682120-0c03473f32d9?q=80&w=800&auto=format&fit=crop' }
+      { tag: 'VIBES', title: 'Trastevere', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/85/90/fd/bancarelle.jpg?w=900&h=500&s=1' }
     ]
   },
   { 
@@ -30,13 +29,13 @@ window.destinations = [
     description: 'Glide through winding waterways on a gondola and lose yourself in the labyrinthine streets.',
     highlights: ['Gondola serenade', 'Doge\'s Palace VIP', 'Murano glass'],
     vCards: [
-      { tag: 'WATERWAYS', title: 'Grand Canal', img: 'https://images.unsplash.com/photo-1514890547357-a9ee2887a35f?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'WATERWAYS', title: 'Grand Canal', img: 'https://upload.wikimedia.org/wikipedia/commons/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg' },
       { tag: 'GEMS', title: 'Dorsoduro', img: 'https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=800&auto=format&fit=crop' }
     ]
   },
   { 
     id: 4, name: 'Florence', country: 'Italy', rating: 4.7, cost: 2350,
-    images: 'https://images.unsplash.com/photo-1543429258-10b8e692a828?q=80&w=1500&auto=format&fit=crop',
+    images: 'https://florencetips.com/images/florencetips.jpg',
     tagline: 'RENAISSANCE CRADLE',
     description: 'Immerse yourself in the art and culture that defined an era in the heart of Tuscany.',
     highlights: ['Michelangelo\'s David', 'Chianti wine tour', 'Duomo views'],
@@ -52,7 +51,7 @@ window.destinations = [
     description: 'Serene waters surrounded by majestic mountains and opulent 17th-century villas.',
     highlights: ['Private boat tour', 'Bellagio lunch', 'Villa Balbianello'],
     vCards: [
-      { tag: 'LUXURY', title: 'Villa Living', img: 'https://images.unsplash.com/photo-1493246507139-91e8bef99c17?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'LUXURY', title: 'Villa Living', img: 'https://media.vrbo.com/lodging/49000000/48320000/48313000/48312912/86e00813.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill' },
       { tag: 'PEACE', title: 'Alpine Retreat', img: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop' }
     ]
   },
@@ -64,7 +63,7 @@ window.destinations = [
     highlights: ['Wine tasting', 'Medieval villages', 'Farm-to-table dining'],
     vCards: [
       { tag: 'NATURE', title: 'Val d\'Orcia', img: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'CRAFTS', title: 'Siena Art', img: 'https://images.unsplash.com/photo-1515542682120-0c03473f32d9?q=80&w=800&auto=format&fit=crop' }
+      { tag: 'CRAFTS', title: 'Siena Art', img: 'https://i.etsystatic.com/14509117/r/il/305245/7683040471/il_570xN.7683040471_aw8o.jpg' }
     ]
   },
 
@@ -150,13 +149,13 @@ window.destinations = [
   },
   { 
     id: 17, name: 'Luxor Temples', country: 'Egypt', rating: 4.8, cost: 2200,
-    images: 'https://images.unsplash.com/photo-1568322445389-f64e1bbea1a5?q=80&w=1500&auto=format&fit=crop',
+    images: 'https://www.egypttoursportal.com/images/2017/11/luxor-the-ancient-city-egypt-tours-portal.jpg',
     tagline: 'THEBES LEGACY',
     description: 'Explore the world\'s largest open-air museum, from Karnak to the Valley of the Kings.',
     highlights: ['Karnak Temple', 'Hot air balloon', 'Tutankhamun Tomb'],
     vCards: [
       { tag: 'SACRED', title: 'Luxor Temple', img: 'https://images.unsplash.com/photo-1553913861-c0fddf2619ee?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'VALLEY', title: 'Tomb Art', img: 'https://images.unsplash.com/photo-1590059390047-f5e617e3a25c?q=80&w=800&auto=format&fit=crop' }
+      { tag: 'VALLEY', title: 'Tomb Art', img: 'https://archaeologicalpaths.com/web/images/news/121/1708354402.png' }
     ]
   },
   { 
@@ -166,7 +165,7 @@ window.destinations = [
     description: 'A luxurious journey down the Nile, stopping at temples that have stood for millennia.',
     highlights: ['Private Dahabiya', 'Kom Ombo', 'Edfu Temple'],
     vCards: [
-      { tag: 'RIVER', title: 'Nile Sunset', img: 'https://images.unsplash.com/photo-1590059390047-f5e617e3a25c?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'RIVER', title: 'Nile Sunset', img: 'https://www.gizapalace.com/images/site-specific/cairo-west/experiences/sunset-on-the-nile/gallery/giza_cairo-west_sunset-on-the-nile-1280x1024px-S360-desktop.webp' },
       { tag: 'VESSEL', title: 'Dahabiya Life', img: 'https://images.unsplash.com/photo-1572252009286-268acec5ca0a?q=80&w=800&auto=format&fit=crop' }
     ]
   },
@@ -183,13 +182,13 @@ window.destinations = [
   },
   { 
     id: 20, name: 'Aswan', country: 'Egypt', rating: 4.6, cost: 1600,
-    images: 'https://images.unsplash.com/photo-1590059390047-f5e617e3a25c?q=80&w=1500&auto=format&fit=crop',
+    images: 'https://www.egiptoexclusivo.com/wp-content/uploads/2023/06/rio-nilo-y-aswan.jpg',
     tagline: 'NUBIAN SERENITY',
     description: 'The most beautiful part of the Nile, characterized by granite rocks and Nubian culture.',
     highlights: ['Philae Temple', 'Old Cataract Hotel', 'Nubian Village'],
     vCards: [
-      { tag: 'CULTURE', title: 'Nubian Colors', img: 'https://images.unsplash.com/photo-1572252009286-268acec5ca0a?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'TEMPLE', title: 'Philae Island', img: 'https://images.unsplash.com/photo-1553913861-c0fddf2619ee?q=80&w=800&auto=format&fit=crop' }
+      { tag: 'CULTURE', title: 'Nubian Colors', img: 'https://www.kevinandamanda.com/wp-content/uploads/2019/08/nubia-aswan-egypt-08.jpg' },
+      { tag: 'TEMPLE', title: 'Philae Island', img: 'https://www.tripsavvy.com/thmb/xcoXfqdk2NI1ZtiAOLrU393tb1I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-500053303-5c80e80b46e0fb0001a5f168.jpg' }
     ]
   },
   { 
